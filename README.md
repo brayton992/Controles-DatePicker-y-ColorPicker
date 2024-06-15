@@ -1,4 +1,16 @@
 ## Controles-DatePicker-y-ColorPicker
+1. DatePicker
+
+2. ColorPicker
+
+3. Button
+
+4. Label
+
+5. VBox Layout
+
+6. Acción al Presionar el Botón
+   
 ## Practica de interface 
 
 ## Imagen de ejemplo de la tarea
