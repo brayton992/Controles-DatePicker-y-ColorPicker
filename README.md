@@ -53,7 +53,7 @@ public class DatePickerColorPickerExample extends Application {
         launch(args);
     }
 }
-
+```
 
    
 ## Practica de interface 
