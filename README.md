@@ -2,6 +2,7 @@
 
 Este código JavaFX proporciona una interfaz simple donde los usuarios pueden seleccionar una fecha y un color, y ver esas selecciones impresas en la consola. Utiliza controles estándar de JavaFX como DatePicker, ColorPicker, Label, y Button, organizados dentro de un layout VBox. La acción del botón captura las selecciones y las imprime, mostrando cómo interactuar con los componentes de JavaFX.
 
+```java
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
