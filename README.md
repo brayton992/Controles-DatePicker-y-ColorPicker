@@ -1,15 +1,56 @@
-## Controles-DatePicker-y-ColorPicker
-1. DatePicker-
+## EXPLICACION DEL CODIGO
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+import javafx.geometry.Insets;
+import javafx.scene.paint.Color;
 
-2. ColorPicker-
+public class DatePickerColorPickerExample extends Application {
 
-3. Button-
+    @Override
+    public void start(Stage primaryStage) {
+        // Crear los controles
+        Label dateLabel = new Label("Selecciona una fecha:");
+        DatePicker datePicker = new DatePicker();
 
-4. Label-
+        Label colorLabel = new Label("Selecciona un color:");
+        ColorPicker colorPicker = new ColorPicker();
 
-5. VBox Layout-
+        Button submitButton = new Button("Confirmar");
 
-6. Acción al Presionar el Botón-
+        // Acción del botón
+        submitButton.setOnAction(e -> {
+            // Obtener la fecha y el color seleccionados
+            String selectedDate = datePicker.getValue().toString();
+            Color selectedColor = colorPicker.getValue();
+
+            // Mostrar en consola
+            System.out.println("Fecha seleccionada: " + selectedDate);
+            System.out.println("Color seleccionado: " + selectedColor);
+        });
+
+        // Crear el layout y añadir los controles
+        VBox vbox = new VBox(10);
+        vbox.setPadding(new Insets(20));
+        vbox.getChildren().addAll(dateLabel, datePicker, colorLabel, colorPicker, submitButton);
+
+        // Crear la escena
+        Scene scene = new Scene(vbox, 300, 250);
+
+        // Configurar el escenario (Stage)
+        primaryStage.setTitle("Ejemplo de DatePicker y ColorPicker en JavaFX");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
+
+
    
 ## Practica de interface 
 
