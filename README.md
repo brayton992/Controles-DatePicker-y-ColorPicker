@@ -1,15 +1,15 @@
 ## Controles-DatePicker-y-ColorPicker
-1. DatePicker
+1. DatePicker-
 
-2. ColorPicker
+2. ColorPicker-
 
-3. Button
+3. Button-
 
-4. Label
+4. Label-
 
-5. VBox Layout
+5. VBox Layout-
 
-6. Acción al Presionar el Botón
+6. Acción al Presionar el Botón-
    
 ## Practica de interface 
 
